@@ -31,7 +31,7 @@ instructions = """
 
 def PostChatCompletions(page_images):
     dataFrames = []
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key="")
     
     # page_imagesの各要素をcontentに追加
     for image in page_images:

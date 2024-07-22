@@ -8,7 +8,7 @@ def WriteDataFrameToExcel(df):
     df.to_csv('output.csv', index=False, encoding='utf-8')
 
     # エクセルファイルの読み込み
-    excel_path = r'C:\\Users\\daiki\\OneDrive\\デスクトップ\\フィッシュマンジャパン\\ダイスイ仕入明細.xlsx'
+    excel_path = r''
     book = load_workbook(excel_path)
 
     # コピーしたいシート名を指定

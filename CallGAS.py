@@ -7,11 +7,11 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 
 # GoogleAppsScriptのデプロイIDのこと
-SCRIPT_ID = 'AKfycbxSE-nr6L6aNnnBgMcPtuCj656e01fTQQPbW-58XoEr5nV2STN4WhbqOijrBGoWUQ2U'
+SCRIPT_ID = ''
     
 def AuthorizeScript():
     # GoogleCloudPlatformからダウンロードしたJSONファイル    
-    JSONFILE=r"C:\\Users\daiki\\OneDrive\\デスクトップ\\プログラム開発\\Python\\フィッシュマンジャパン\\OAuthClient.json"
+    JSONFILE=r""
 
     # GoogleCloudPlatformでAuth同意画面を作成する で選択したスコープのこと
     SCOPES = [
@@ -46,8 +46,8 @@ def PostGAS_getPDFFileIdInEmails(service):
     request = {
                 "function": "getPDFFileIdInEmails"
                ,"parameters":{
-                              'senderEmail':'daiki99dl@gmail.com'
-                             ,'folderId':'1O2ZpwwLVHp7OlGnOeBbp2TDY2rIKmjmb'
+                              'senderEmail':''
+                             ,'folderId':''
                              }
     }
 
